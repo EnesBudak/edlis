@@ -1,123 +1,560 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Welcome | Edlis</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<!-- Google font -->
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-	<!-- Ico Font CSS -->
-	<link rel="stylesheet" href="css/icofont.css">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Responsive CSS -->
-	<link rel="stylesheet" href="css/responsive.css">
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Edlis | Wallet</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="assets/fonts/css/all.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/vendor/magnific-popup.css">
+    <!-- Animate CSS -->
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+     <!-- Owl Carouusel CSS -->
+     <link rel="stylesheet" href="assets/vendor/owl.carousel.css">
+     <link rel="stylesheet" href="assets/vendor/owl.theme.default.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body class="bg-img body-bg">
-	<div class="winter-is-coming">
-		<div class="snow snow-near"></div>
-		<div class="snow snow-near snow-alt"></div>
-		<div class="snow snow-mid"></div>
-		<div class="snow snow-mid snow-alt"></div>
-		<div class="snow snow-far"></div>
-		<div class="snow snow-far snow-alt"></div>
-	</div>
-	<!-- Preloader Starts -->
-	<div class="preloader-wrap">
-		<div class="preloader">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-	</div>
-	<!--/Preloader Ends -->
+    
+  <body>
 
-	<!-- MAIN CONTENT PART START -->
+    <!--Loader -->
+    <div class="akar-loader">
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+    </div>
+    <!-- Loader end -->
+    	
+  
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
 
+            <!-- Logo -->
+            <a class="logo" href="#">
+                <img src="assets/img/edlis-logo2.png" alt="logo">          
+            </a>
 
-		<!-- BODY CONTENT PART START -->
-		<div id="main-content-home" class="xs-no-positioning fixed fixed-middle positon-fix-style-1">
-			<div><!-- TITLE PART START -->
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="title">
-								<span class="main-title">We Are Coming Soon</span>
-								<p class="small-title">Me and my friends are currently working hard  building this website</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- TITLE PART END -->
-				
-				<!-- COUNTER PART START -->
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-sm-12 col-md-10 col-lg-7 col-xl-7">
-							<div class="home1-counter-box">
-								<input type="hidden" id="count-down-date" name="count-down-date" value="20 Jan, 2021 12:00:00">
-								<h2 class="expired-text hidden">Welcome to Our Website</h2>
-								
-								<div class="home1-countdown-timer" id="countdown-boxes">
-									<ul class="list-inline count-down-list text-center">
-										<li id="years">
-											<span class="years"></span>
-											<span class="counter-time-title">Years</span>
-										</li>
-										<li id="months">
-											<span class="months"></span>
-											<span class="counter-time-title">Months</span>
-										</li>
-										<li id="days">
-											<span class="days"></span>
-											<span class="counter-time-title">Days</span>
-										</li>
-										<li id="hours">
-											<span class="hours"></span>
-											<span class="counter-time-title">Hours</span>
-										</li>
-										<li id="minutes">
-											<span class="minutes"></span>
-											<span class="counter-time-title">Minutes</span>
-										</li>
-										<li id="seconds">
-											<span class="seconds"></span>
-											<span class="counter-time-title">Seconds</span>
-										</li>
-									</ul>
-								</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
 
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- COUNTER PART END -->
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="1">Über uns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="2">Produkte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="3">Hilfe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="4">Bemerkungen</a>
+                    </li>                     
+                 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="6">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar = -->
 
-			
-				<!-- SUBSCRIBE FORM PART END-->
-			</div>
-		</div>
-		<!-- BODY CONTENT PART END -->
+    <!-- Start Header -->
+    <header class="valign header">
+        <div id="particles-js"></div>
+        <!-- backgroundslide -->
+        <div class="pic-wrapper">
+            <figure class="pic-1"></figure>
+            <!-- <figure class="pic-2"></figure>
+            <figure class="pic-3"></figure>
+            <figure class="pic-4"></figure> -->
+        </div>
 
-	</div>
-	<!-- /MAIN CONTENT PART ENDS -->
+        <div class="container">
+            <div class="text-center mt-30">                
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h1>Wir sind hier, um Ihnen die beste <span>Qualität</span>  zu bieten!</h1>
+                    </div>                    
+                </div>
+                <ul class="head-navigation text-center">
+                    <li class="main-nav text-left">
+                        <a href="#0" data-scroll-nav="1">
+                            <h4>Wer sind wir?</h4>
+                            <div class="top-nav">
+                                <span>
+                                    <i class="arrow"></i>
+                                    Details
+                                    <i class="arrow"></i>		
+                                </span>
+                            </div>
+                        </a>                        
+                    </li>
+                    <li class="main-nav text-left">
+                        <a href="#0" data-scroll-nav="2">
+                        <h4>Produkte</h4>
+                        <div class="top-nav">
+                            <span>
+                                <i class="arrow"></i>
+                                Details
+                                <i class="arrow"></i>		
+                            </span>
+                        </div>
+                         </a>
+                    </li>
+                </ul> 
+                <!-- right side social -->
+                <div class="social-media">
+                    <ul>
+                        <li><a  href="https://www.instagram.com/edlisshop/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li> -->
+                    </ul>
+                </div>      
+                <!-- left-navbar -->
+                <div class="left-nav">
+                    <ul>
+                        <li><a href="#" data-scroll-nav="6">Kontakt</a></li>
+                        <li><a href="#" data-scroll-nav="3">Hilfe</a></li>
+                    </ul>
+                </div>
+                <!-- decor -->
+                <div class="top-dash-1"></div>
+                <div class="top-dash-2"></div>
+                <div class="top-dash-3"></div>
+                <div class="top-dash-4"></div>
+                <div class="top-dash-5"></div>
+            </div>            
+        </div>
+        <a href="#" data-scroll-nav="1">
+            <div id="mouse-scroll">
+                <div class="mouse">
+                <div class="mouse-in"></div>
+                </div>
+                <div>
+                    <span class="down-arrow-1"></span>
+                    <span class="down-arrow-2"></span>
+                    <span class="down-arrow-3"></span>
+                </div>
+            </div>
+        </a>        
+    </header>
+    <!-- End Header==== -->
+        <!-- margin up -->
+        <div class="mt-up"></div>
+    <!-- Start About -->
+    <section class="about" data-scroll-index="1"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1 text-center">
+                    <h3 data-aos="fade-up" data-aos-once="true">Wir hören, wir verstehen, wir denken, am wichtigsten wir fokussieren uns auf ein Vergleichloses und funktionierendes design, dass Modern und Zeitlos ist. </h3>
+                
+                </div>
+            </div>            
+            <div class="line"></div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4  mt-30">
+                    <div class="ww-content" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+                        <div class="icon hov">
+                            <i class="fas fa-hand-holding-heart"></i>
+                           
+                        </div>
+                        <h5>100% Handarbeit</h5>
+                        
+                    </div>                    
+                </div>
+                <div class="col-md-6 col-lg-4  mt-30">
+                    <div class="ww-content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" >
+                        <div class="icon hov">
+                            <i class="fas fa-feather-alt"></i>
+                        </div>
+                        <h5>Echtleder</h5>
+                       
+                    </div>                    
+                </div>
+                <div class="col-md-6 col-lg-4  mt-30">
+                    <div class="ww-content" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
+                        <div class="icon hov">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h5>mit Kreditkartenschutz</h5>
+                        
+                    </div>                    
+                </div>
+              
+                          
+            </div>                     
+        </div>
+        <div class="container-fluid bg-second">
+            <div class="row mt-100 v-center">
+                <div class="col-md-12 col-lg-6  text-center mmt-20 px-0">
+                    <div class="img-about">                        
+                        <img src="assets/img/product/anaconda.png" alt="about">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mmt-20 about-detail pb-30">
+                    <h3 class="mt-30"><span>Anaconda Wallet</span></h3>
+                    <p class="white mt-30">
+                        Echtleder,
+                        Handarbeit,
+                        automatischer Kreditkartenschutz
+                        </p>
+                        
+                    
+                    
+                    <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                        <span>Kaufe jetzt</span>
+                    </a>
+                </div>
+            </div>  
+        </div>
+    </section>
 
+    <!-- Portfolio Start -->
+    <section class="portfolio bg-main" data-scroll-index="2">
+        <div class="container">
 
-	<!-- jQuery -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<!-- Bootstrap JS -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- scripts -->
-	<script src="js/scripts.js"></script>
+            <div class="line"></div> 
+            <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span> Unsere neuen Saisonprodukte</span></h3>    
+            <div class="line"></div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="portfolio-item">
+                    <div class="row  v-center">
+                        <div class="col-md-12 col-lg-7 mt-30">
+                                <div class="img-port">
+                                    <img class="img-fluid" src="assets/img/product/classicblack.jpeg" alt="a">
+                                </div>
+                            </div>
+                        <div class="col-md-12 col-lg-5">                         
+                            <h3 class="mt-20"><span>Classic Black</span>  </h3>
+                            <p class="mt-20">Echtleder,
+                                Handarbeit,
+                                automatischer Kreditkartenschutz</p>
+                          
+                                <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                    <span>Kaufe jetzt</span>
+                                </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="row v-center">
+                        <div class="col-md-12 col-lg-7 mt-30">
+                            <div class="img-port">
+                                <img class="img-fluid" src="assets/img/product/classicblue.jpeg" alt="a">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">                          
+                            <h3 class="mt-20"><span>Classic Blue </span> 
+                            </h3>
+                            <p class="mt-20">Handarbeit,
+                                automatischer Kreditkartenschutz</p>
+                                <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                    <span>Kaufe jetzt</span>
+                                </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="row v-center">
+                        <div class="col-md-12 col-lg-7 mt-30">
+                            <div class="img-port">
+                                <img class="img-fluid" src="assets/img/product/saffiano.jpeg" alt="a">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">                           
+                            <h3 class="mt-20"><span>Saffiano Wallet</span> </h3>
+                            <p class="mt-20">Echtleder,
+                                Handarbeit,
+                                automatischer Kreditkartenschutz</p>
+                            <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                <span>Kaufe jetzt</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="row v-center">
+                        <div class="col-md-12 col-lg-7 mt-30">
+                            <div class="img-port">
+                                <img class="img-fluid" src="assets/img/product/usedeffect.jpeg" alt="a">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">                           
+                            <h3 class="mt-20"><span>Used Effect Gray Wallet</span> </h3>
+                            <p class="mt-20">Echtleder,
+                                Handarbeit,
+                                automatischer Kreditkartenschutz</p>
+                            <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                <span>Kaufe jetzt</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="row v-center">
+                        <div class="col-md-12 col-lg-7 mt-30">
+                            <div class="img-port">
+                                <img class="img-fluid" src="assets/img/product/cozyred.jpeg" alt="a">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-5">                           
+                            <h3 class="mt-20"><span>Cozy Red Wallet</span> </h3>
+                            <p class="mt-20">Echtleder,
+                                Handarbeit,
+                                automatischer Kreditkartenschutz</p>
+                            <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                <span>Kaufe jetzt</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+            </div>  
+            <div class="port-nav text-right">
+                <a class="customNextBtn">
+                    <span>
+                        <i class="arrow"></i>
+                        Wischen Sie nach anderen Geldbörsen
+                        <i class="arrow"></i>		
+                    </span>
+                </a>                             
+            </div>          
+        </div>
+    </section>
+    <!-- Portfolio End -->
+
+    <!-- Team Start -->
+    <section class="team bg-second" data-scroll-index="3">
+        <div class="container">
+               
+            <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span>Andere Modelle</span></h3>    
+            <div class="line"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="team-item">
+                            <div class="team-detail">
+                                <div class="team-content text-center">
+                                    <span class="dash"></span>
+                                    <h5>Marine Blue Wallet</h5>
+                                    <span class="dash"></span>
+                                    <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                        <span>Kaufe jetzt</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/img/product/marineblue.jpeg" alt="port-1">
+                        </div>
+                        <div class="team-item">
+                            <div class="team-detail">
+                                <div class="team-content text-center">
+                                    <span class="dash"></span>
+                                    <h5>Classic Brown  Wallet</h5>
+                                    <span class="dash"></span>
+                                    <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                        <span>Kaufe jetzt</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/img/product/classicbrown.jpeg" alt="port-1">
+                        </div>
+                        <div class="team-item">
+                            <div class="team-detail">
+                                <div class="team-content text-center">
+                                    <span class="dash"></span>
+                                    <h5>Khaki  Wallet</h5>
+                                    <span class="dash"></span>
+                                    <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                        <span>Kaufe jetzt</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/img/product/khaki.jpeg" alt="port-1">
+                        </div>
+                        <div class="team-item">
+                            <div class="team-detail">
+                                <div class="team-content text-center">
+                                    <span class="dash"></span>
+                                    <h5>Anaconda  Wallet</h5>
+                                    <span class="dash"></span>
+                                    <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-30">
+                                        <span>Kaufe jetzt</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <img src="assets/img/product/anaconda2.jpeg" alt="port-1">
+                        </div>
+                    
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team End -->
+    
+    <!-- Testimonial Start -->
+    <section class="testimonial bg-main" data-scroll-index="4">
+        <div class="container">
+
+            <h3 class="text-center" data-aos="fade-up" data-aos-delay="100" data-aos-once="true"><span> Kommentare unserer Kunden</span></h3>    
+            <div class="line"></div>          
+            <div class="row">                   
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="testimonial-item">
+                            <div class=" testimonial-content">
+                                <p class="pb-20">Herzlichen Dank für die schnelle Abwicklung am dritten Tag war die Post da. Schön verpackt super qualität einfach top!</p>
+                                <img src="assets/img/photo-1.png" alt="testi-1">
+                                <h4>Florian Müller</h4>
+                                   
+                            </div>                            
+                        </div>
+                        <div class="testimonial-item">
+                            <div class=" testimonial-content">
+                                <p class="pb-20">Vielen Dank mein Mann ist begeistert! Selten so einfache und Qualitative Ware vom Internet gefunden habe bereits für meinen Vater auch bestellt.</p>
+                                <img src="assets/img/photo-1.png" alt="testi-1">
+                                <h4>Sabrina Hollaus</h4>
+                                    
+                            </div>                            
+                        </div>
+                        <div class="testimonial-item">
+                            <div class=" testimonial-content">
+                                <p class="pb-20">Habe euch durch meinen Arbeitskollegen empfohlen bekommen richtig schöne Handarbeit. Finde super weiter so!</p>
+                                <img src="assets/img/photo-1.png" alt="testi-1">
+                                <h4>Patrick Ehrenstrasser</h4>
+                               
+                            </div>                            
+                        </div>
+                       
+                        <div class="testimonial-item">
+                            <div class=" testimonial-content">
+                                <p class="pb-20">Schnell. Einfach und Qualität mehr muss ich nicht sagen habe Anaconda bestellt ist wirklich ein hingucker!</p>
+                                <img src="assets/img/photo-1.png" alt="testi-1">
+                                <h4>Manuel hofmann </h4>
+                                  
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clients -->
+        <div class="partner">
+        <div class="container">
+            <div class="row">         
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="partner-item">
+                        
+                        </div>
+                    </div>                    
+                </div>                        
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    
+
+    <section data-scroll-index="6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 data-aos="fade-up" data-aos-delay="300" data-aos-once="true">Kontaktiere uns!</h2>
+                    <h4 data-aos="fade-up" data-aos-delay="100" data-aos-once="true">mit WhatsApp</h4>
+                    <a href="https://wa.me/436604312982" target="_blank" class="main-button mt-20" data-aos="fade-down" data-aos-delay="300" data-aos-once="true">
+                        <span> <i class="fab fa-whatsapp m-1"></i> WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+        
+    <!-- Start Footer -->
+    <section class="footer bg-second">
+        <div class="container">
+                
+            <div class="row">
+                <div class="col-md-6 border">
+                    <i class="fas fa-camera"></i>
+                    <h4>Instagram</h4>                  
+                    <p>@edlisshop</p>
+                </div>
+              
+                <div class="col-md-6 border-max">
+                    <div class="address">
+                        <i class="fas fa-phone"></i>
+                        <h4>Telefon</h4>
+                        <p>+43 (660) 4312982</p>
+                    </div>                        
+                </div>
+                  
+            </div>
+            <div class="row mt-30 text-center">
+                <div class="col-md-12">
+                    <p>&copy; Copyright 2021 | EDLIS</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Footer  -->
+
+    
+    <script  src="assets/vendor/jquery-3.3.1.min.js"></script>
+    <!-- Popper JS -->
+    <script src="assets/vendor/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/vendor/bootstrap.min.js"></script>
+    <!-- Magnific-popup JS -->
+    <script src="assets/vendor/jquery.magnific-popup.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="assets/vendor/owl.carousel.js"></script>    
+    <!-- Scroll IT JS -->
+    <script src="assets/vendor/scrollIt.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Particle JS -->
+    <script src="assets/vendor/particles.min.js"></script>
+    <script src="assets/vendor/app.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>
